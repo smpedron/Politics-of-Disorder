@@ -134,4 +134,5 @@ table(homeless$year) # checks
 table(homeless$requesttype)
 
 ## saving
-save(combined_dt, file = "homeless_calls_311_LA.Rda") # total rows should be 478,777
+save(homeless, file = "homeless_calls_311_LA.Rda") # total rows should be 478,777
+
