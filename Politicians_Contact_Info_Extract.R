@@ -7,7 +7,7 @@ import requests
 import pandas as pd
 
 # Google API key
-API_KEY = 'AIzaSyAirG-ipNftEJJFDR8v_tMxgS5f6SV9bjQ'
+API_KEY = 'XXX'
 
 # Define the endpoint for the Google Civic Information API
 url = 'https://www.googleapis.com/civicinfo/v2/representatives'
@@ -106,4 +106,5 @@ print(df)
 df.to_excel("municipal+county_representatives.xlsx", index=False)
 
 # Print success message
+
 print("Data successfully saved to municipal+county_representatives.xlsx")
